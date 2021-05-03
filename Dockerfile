@@ -22,8 +22,7 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \
     && apt -y install ffmpeg \
     && npm install discord.js node-opus opusscript \
     && npm install sqlite3 --build-from-source \
-    && npm install better-sqlite3 --build-from-source \
-    && npm install express --save
+    && npm install better-sqlite3 --build-from-source
 
 USER container
 ENV  USER container
